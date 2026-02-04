@@ -1,0 +1,21 @@
+.heroSection {
+  background: url();
+}
+.hide {
+  max-height: 20rem;
+  overflow: hidden;
+  transition: max-height 0.8s ease, opacity 0.4s ease;
+}
+.show {
+  max-height: 140rem;
+}
+@media (max-width: 500px) {
+  .hide {
+    max-height: 10rem;
+    overflow: hidden;
+    transition: max-height 0.8s ease, opacity 0.4s ease;
+  }
+  .show {
+    max-height: 150rem;
+  }
+}

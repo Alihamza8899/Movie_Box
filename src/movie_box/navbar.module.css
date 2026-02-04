@@ -1,0 +1,9 @@
+/* @media (max-width: 500px) {
+  .navbar {
+    transform: translateX(100%);
+    transition: transform 0.8s ease;
+  }
+  .animate {
+    transform: translateX(0);
+  }
+} */
