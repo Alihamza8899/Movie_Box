@@ -36,7 +36,7 @@ let DetailBox = () => {
     dataDetail && (
       <div
         className={`${
-          closeSidebar ? "min-w-[100%]" : "min-w-[50%]"
+          closeSidebar ? "min-w-[100%]" : "max-w-0 md:max-w-[78%]"
         } text-3xl text-white  md:w-[77%] flex flex-col md:flex-row `}
       >
         <div className="w-[90%] md:w-[50%] m-4">
